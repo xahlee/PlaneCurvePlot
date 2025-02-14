@@ -15,7 +15,9 @@ This package exports the function PlaneCurvePlot. PlaneCurvePlot is like Paramet
 
  :Keywords: graphics, geometry, calculus, curve, plot, tangent, secant, normal, parallel, caustics, involute, evolute, radial, concoid, inversion, pedal
 
- :Package Version: 4, 2024-03-01
+:Homepage: http://xahlee.info/M/plane_curve_plot.html
+
+ :Package Version: 4.0.20250214021935
 
  :History:
 Version 4. 2024-03-01. all rewritten for wolfram lang 13.

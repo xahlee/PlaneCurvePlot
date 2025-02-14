@@ -1,15 +1,16 @@
 PlaneCurvePlot is a package for Wolfram language / Mathematica for plotting plane curves and many curve features.
 
+the package file is
 PlaneCurvePlot.wl
-is the code.
 
-PlaneCurvePlot_examples.nb
-is the examples.
+main intro doc is
+PlaneCurvePlot_doc_readme.nb
 
-all exported symbols are fully documented. e.g.
+other .nb files are examples.
+
+All exported symbols are fully documented. e.g.
 Type
 ?PlaneCurvePlot
-for documentation.
 
 open PlaneCurvePlot_examples.nb
 to start.
