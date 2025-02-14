@@ -12,9 +12,6 @@ All exported symbols are fully documented. e.g.
 Type
 ?PlaneCurvePlot
 
-open PlaneCurvePlot_examples.nb
-to start.
-
 Home page url:
 http://xahlee.info/M/plane_curve_plot.html
 
