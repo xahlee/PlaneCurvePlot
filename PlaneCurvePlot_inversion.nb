@@ -10,23 +10,19 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       161,          7]
-NotebookDataLength[   1865527,      34380]
-NotebookOptionsPosition[   1861089,      34288]
-NotebookOutlinePosition[   1861694,      34310]
-CellTagsIndexPosition[   1861651,      34307]
+NotebookDataLength[   1866244,      34394]
+NotebookOptionsPosition[   1861819,      34300]
+NotebookOutlinePosition[   1862424,      34322]
+CellTagsIndexPosition[   1862381,      34319]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
- RowBox[{"Get", "[", 
-  RowBox[{"StringJoin", "[", 
-   RowBox[{
-    RowBox[{"NotebookDirectory", "[", "]"}], ",", 
-    "\"\<PlaneCurvePlot.wl\>\""}], "]"}], "]"}]], "Input",
- CellChangeTimes->{{3.9171378249630384`*^9, 3.917137825889429*^9}, 
-   3.918137907537045*^9, {3.9485133504588814`*^9, 3.9485133515452404`*^9}},
- CellLabel->"In[76]:=",ExpressionUUID->"a302f2ca-d417-cb4d-8960-4442d14b8598"],
+ RowBox[{"Needs", "[", "\"\<PlaneCurvePlot`\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.956526103949301*^9, 
+  3.956526103949301*^9}},ExpressionUUID->"5cb9bf44-3dcf-e141-92b4-\
+2e70c948f1e1"],
 
 Cell[CellGroupData[{
 
@@ -37,12 +33,12 @@ Cell["Inversion", "Chapter",
 
 Cell[CellGroupData[{
 
-Cell["(* Conics invert into Lemicon of Pascal at their focus *)", \
-"Subsubsection",
- CellChangeTimes->{3.861419382518916*^9, 3.915662545599779*^9},
- AspectRatioFixed->True,
- CellLabel->
-  "In[335]:=",ExpressionUUID->"56bf1e40-9513-4da1-840c-d8195aa5ae85"],
+Cell["Conics invert into Limacon of Pascal at their focus", "Section",
+ CellChangeTimes->{
+  3.861419382518916*^9, 3.915662545599779*^9, {3.9489822195645657`*^9, 
+   3.948982220853636*^9}, {3.9565258758573437`*^9, 3.956525899492777*^9}},
+ AspectRatioFixed->
+  True,ExpressionUUID->"56bf1e40-9513-4da1-840c-d8195aa5ae85"],
 
 Cell[CellGroupData[{
 
@@ -83,7 +79,7 @@ Cell[BoxData[
  CellChangeTimes->{3.861419382518916*^9, 3.91566255308217*^9, 
   3.915908218397927*^9, 3.917139332822468*^9},
  AspectRatioFixed->True,
- CellLabel->"In[77]:=",ExpressionUUID->"5734fa59-491e-4a7e-9ee6-9f6aea3e0c0d"],
+ CellLabel->"In[14]:=",ExpressionUUID->"5734fa59-491e-4a7e-9ee6-9f6aea3e0c0d"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -3699,19 +3695,20 @@ U99jVywIr7Le+v1NwBD///8DPAoQPf2RJ7r4/wATWn1O
   Axes->True]], "Output",
  CellChangeTimes->{3.916157896257314*^9, 3.916247356475299*^9, 
   3.917139353980958*^9, 3.918138624247558*^9, 3.9182290736434717`*^9, 
-  3.948513073625271*^9, 3.9485145423355713`*^9},
- CellLabel->"Out[77]=",ExpressionUUID->"fb712334-cb4e-e84e-aab6-e726e8ef9385"]
+  3.948513073625271*^9, 3.948514542335573*^9, 3.956525845200884*^9, 
+  3.9565260505691357`*^9},
+ CellLabel->"Out[14]=",ExpressionUUID->"b6f7cf97-5b7b-694c-8e79-89f185e8bb23"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["(* Conics invert into Lemicon of Pascal at their focus *)", \
-"Subsubsection",
- CellChangeTimes->{3.861419386620965*^9, 3.915662560766211*^9},
- AspectRatioFixed->True,
- CellLabel->
-  "In[337]:=",ExpressionUUID->"3d03f3ca-1702-44f0-ac61-913bcd8237c4"],
+Cell["Conics invert into Limacon of Pascal at their focus", "Section",
+ CellChangeTimes->{
+  3.861419386620965*^9, 3.915662560766211*^9, 3.9489822340612335`*^9, {
+   3.9565259281107388`*^9, 3.9565259309570904`*^9}},
+ AspectRatioFixed->
+  True,ExpressionUUID->"3d03f3ca-1702-44f0-ac61-913bcd8237c4"],
 
 Cell[CellGroupData[{
 
@@ -3757,7 +3754,7 @@ Cell[BoxData[
  CellChangeTimes->{3.861419386620965*^9, 3.9156625642919083`*^9, 
   3.91590822513008*^9, 3.917139332827472*^9},
  AspectRatioFixed->True,
- CellLabel->"In[78]:=",ExpressionUUID->"ee5c46c4-5ce4-4b8f-aad8-24a8198dcb06"],
+ CellLabel->"In[15]:=",ExpressionUUID->"ee5c46c4-5ce4-4b8f-aad8-24a8198dcb06"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -5616,19 +5613,20 @@ vIj+mDBRydyUwxbfS9ndp7VCmfuPcHF9lsP+3/9t7P8AA5SxxQ==
   PlotRange->{{-5, 2.5}, {-3.5, 3.5}}]], "Output",
  CellChangeTimes->{3.916157896306357*^9, 3.916247356542361*^9, 
   3.917139354100579*^9, 3.918138624295602*^9, 3.9182290736895137`*^9, 
-  3.948513073718355*^9, 3.948514542432663*^9},
- CellLabel->"Out[78]=",ExpressionUUID->"c0e35f85-fed4-644f-8fec-58b0fe6acb46"]
+  3.948513073718355*^9, 3.948514542432663*^9, 3.956525845343836*^9, 
+  3.956526050665222*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"b3d06ef7-2730-884d-9699-a6d272d9fd6e"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["(* Conics invert into Lemicon of Pascal at their focus *)", \
-"Subsubsection",
- CellChangeTimes->{3.861419387522095*^9, 3.9156625734356074`*^9},
- AspectRatioFixed->True,
- CellLabel->
-  "In[339]:=",ExpressionUUID->"e9d3bc5f-c51b-476e-9ce7-4c0a7a15d22f"],
+Cell["Conics invert into Limacon of Pascal at their focus", "Section",
+ CellChangeTimes->{
+  3.861419387522095*^9, 3.915662573435607*^9, 3.948982237954773*^9, {
+   3.9565259565956383`*^9, 3.9565259568804436`*^9}, 3.9565260379403725`*^9},
+ AspectRatioFixed->
+  True,ExpressionUUID->"e9d3bc5f-c51b-476e-9ce7-4c0a7a15d22f"],
 
 Cell[CellGroupData[{
 
@@ -5677,7 +5675,7 @@ Cell[BoxData[
  CellChangeTimes->{3.861419387522095*^9, 3.9156625889151793`*^9, 
   3.915908226037953*^9, 3.917139332834479*^9},
  AspectRatioFixed->True,
- CellLabel->"In[79]:=",ExpressionUUID->"5a0deee3-c110-438a-877b-301c6f4b79cc"],
+ CellLabel->"In[16]:=",ExpressionUUID->"5a0deee3-c110-438a-877b-301c6f4b79cc"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -8155,8 +8153,9 @@ PRS6
   PlotRange->{{-1.5, 3.5}, {-3, 3}}]], "Output",
  CellChangeTimes->{3.9161578963594065`*^9, 3.916247356590404*^9, 
   3.917139354153628*^9, 3.918138624347649*^9, 3.91822907374056*^9, 
-  3.9485130738004284`*^9, 3.948514542519741*^9},
- CellLabel->"Out[79]=",ExpressionUUID->"05a47305-a716-f040-abc3-dc67a9993d2c"]
+  3.9485130738004284`*^9, 3.948514542519741*^9, 3.9565258455095367`*^9, 
+  3.9565260507493*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"21e8db47-91cd-3447-8548-5af60fbbb992"]
 }, Open  ]]
 }, Open  ]],
 
@@ -8165,10 +8164,10 @@ Cell[CellGroupData[{
 Cell["\<\
 Parabola invert into a Cissoid of Diocles
 Inversion point at the vertex of the parabola \
-\>", "Subsubsection",
+\>", "Section",
  CellChangeTimes->{
   3.8614193883889637`*^9, 3.915662600872135*^9, 3.9160677516436143`*^9, {
-   3.9161556114667835`*^9, 3.916155618002574*^9}},
+   3.916155611466783*^9, 3.916155618002574*^9}},
  AspectRatioFixed->
   True,ExpressionUUID->"3d9b4839-c048-43bf-b8e5-c5cc878ccae5"],
 
@@ -8205,10 +8204,10 @@ Cell[BoxData[
       RowBox[{"{", 
        RowBox[{
         RowBox[{"-", "5.2"}], ",", "10"}], "}"}]}], "}"}]}]}], "]"}]], "Input",
- CellChangeTimes->{3.8614193883889637`*^9, 3.9156626102721386`*^9, 
+ CellChangeTimes->{3.8614193883889637`*^9, 3.915662610272138*^9, 
   3.9159082268564053`*^9, 3.917139332844487*^9},
  AspectRatioFixed->True,
- CellLabel->"In[80]:=",ExpressionUUID->"4355e051-120c-48a4-af45-6c9cb2f126bf"],
+ CellLabel->"In[17]:=",ExpressionUUID->"4355e051-120c-48a4-af45-6c9cb2f126bf"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -9986,21 +9985,23 @@ R7po6HXhSse131T05/8slDVEw2PRiUGLi1ScYYv0cf1JQ8XaBkOvVSq6Mmbd
   PlotRange->{{-10, 10}, {-5.2, 10}}]], "Output",
  CellChangeTimes->{3.9161578964198027`*^9, 3.916247356647456*^9, 
   3.917139354212682*^9, 3.91813862445873*^9, 3.9182290738505325`*^9, 
-  3.9485130738935146`*^9, 3.948514542650875*^9},
- CellLabel->"Out[80]=",ExpressionUUID->"a11a07bb-5a52-584d-8029-bcecbc519244"]
+  3.9485130738935146`*^9, 3.948514542650875*^9, 3.956525845609627*^9, 
+  3.9565260508403816`*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"c3ba5a6a-d20e-7341-b1a9-0e68f19c8f73"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["\<\
-(* Rectangular hyperbola inverts into a Lemniscate of Bernoulli *)
-(* Inversion point at the hyperbola's center *)\
-\>", "Subsubsection",
- CellChangeTimes->{3.8614193892229633`*^9, 3.915662623992153*^9},
- AspectRatioFixed->True,
- CellLabel->
-  "In[344]:=",ExpressionUUID->"dc332e7d-6774-4b2d-90fb-06d49b81dc8a"],
+Rectangular hyperbola inverts into a Lemniscate of Bernoulli
+Inversion point at the hyperbola's center\
+\>", "Section",
+ CellChangeTimes->{
+  3.8614193892229633`*^9, 3.915662623992153*^9, {3.9565259665176487`*^9, 
+   3.9565259712752247`*^9}, {3.956526039058407*^9, 3.9565260398313637`*^9}},
+ AspectRatioFixed->
+  True,ExpressionUUID->"dc332e7d-6774-4b2d-90fb-06d49b81dc8a"],
 
 Cell[CellGroupData[{
 
@@ -10037,7 +10038,7 @@ Cell[BoxData[
  CellChangeTimes->{3.8614193892229633`*^9, 3.915841830396253*^9, 
   3.9159082276749315`*^9, 3.917139332855498*^9},
  AspectRatioFixed->True,
- CellLabel->"In[81]:=",ExpressionUUID->"1427f4f1-99e7-495b-9262-a8ef890230e7"],
+ CellLabel->"In[18]:=",ExpressionUUID->"1427f4f1-99e7-495b-9262-a8ef890230e7"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -12424,21 +12425,23 @@ VA==
   Axes->True,
   PlotRange->{{-3, 3}, {-3, 3}}]], "Output",
  CellChangeTimes->{3.9161578965029182`*^9, 3.916247356699504*^9, 
-  3.917139354267732*^9, 3.9181386245137796`*^9, 3.918229073902581*^9, 
-  3.948513074002613*^9, 3.948514542786005*^9},
- CellLabel->"Out[81]=",ExpressionUUID->"88b1fb13-b2d9-7347-88bf-ecac200b216d"]
+  3.917139354267732*^9, 3.918138624513778*^9, 3.918229073902581*^9, 
+  3.948513074002613*^9, 3.948514542786005*^9, 3.956525845818819*^9, 
+  3.9565260509484806`*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"a0823ddd-d796-7c46-b7ba-566c134d85e2"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["\<\
-(* Rectangular hyperbola inverts into strophoid *)
-(* Inversion point at the hyperbola's vertex *)\
-\>", "Subsubsection",
+Rectangular hyperbola inverts into strophoid
+(* Inversion point at the hyperbola's vertex\
+\>", "Section",
  CellChangeTimes->{
-  3.8614193900131884`*^9, 3.9156626336739774`*^9, {3.915799903303381*^9, 
-   3.915799905559857*^9}},
+  3.861419390013188*^9, 3.9156626336739764`*^9, {3.915799903303381*^9, 
+   3.915799905559857*^9}, {3.956525976168703*^9, 3.9565259764579678`*^9}, {
+   3.9565260406487465`*^9, 3.956526041307686*^9}},
  AspectRatioFixed->
   True,ExpressionUUID->"382e6e16-f3f7-4a3e-b269-2479dfcb8328"],
 
@@ -12474,10 +12477,10 @@ Cell[BoxData[
       RowBox[{"{", 
        RowBox[{
         RowBox[{"-", "3"}], ",", "3"}], "}"}]}], "}"}]}]}], "]"}]], "Input",
- CellChangeTimes->{3.8614193900131884`*^9, 3.91579989628225*^9, 
+ CellChangeTimes->{3.861419390013188*^9, 3.91579989628225*^9, 
   3.915841835590369*^9, 3.915908228641351*^9, 3.917139332866508*^9},
  AspectRatioFixed->True,
- CellLabel->"In[82]:=",ExpressionUUID->"0599603d-ebb0-49fa-99a6-a3859914cb94"],
+ CellLabel->"In[19]:=",ExpressionUUID->"0599603d-ebb0-49fa-99a6-a3859914cb94"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -14862,22 +14865,24 @@ VA==
    {RGBColor[1, 0, 0], PointSize[0.01]}, {}, {}, {}, {}},
   Axes->True,
   PlotRange->{{-3, 3}, {-3, 3}}]], "Output",
- CellChangeTimes->{3.916157896601222*^9, 3.9162473567635612`*^9, 
+ CellChangeTimes->{3.916157896601222*^9, 3.91624735676356*^9, 
   3.917139354335519*^9, 3.918138624561824*^9, 3.918229073949623*^9, 
-  3.948513074083687*^9, 3.948514542903101*^9},
- CellLabel->"Out[82]=",ExpressionUUID->"7ceda94d-6ee2-0f4e-a153-1bb3dccb2927"]
+  3.948513074083687*^9, 3.948514542903101*^9, 3.956525845913904*^9, 
+  3.956526051031555*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"160437f6-e54b-c146-a970-e67677fd5fa5"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["\<\
-(* The inverse of an Archimedean spiral is another Archimedean spiral *)\
-\>", "Subsubsection",
- CellChangeTimes->{3.8614193908960447`*^9, 3.9156626495434284`*^9},
- AspectRatioFixed->True,
- CellLabel->
-  "In[349]:=",ExpressionUUID->"f8a65b32-bc82-41c6-9966-5684c2161256"],
+The inverse of an Archimedean spiral is another Archimedean spiral\
+\>", "Section",
+ CellChangeTimes->{
+  3.8614193908960447`*^9, 3.9156626495434275`*^9, {3.956525980378023*^9, 
+   3.956525980662073*^9}, 3.956526042040802*^9},
+ AspectRatioFixed->
+  True,ExpressionUUID->"f8a65b32-bc82-41c6-9966-5684c2161256"],
 
 Cell[CellGroupData[{
 
@@ -14905,7 +14910,7 @@ Cell[BoxData[
   3.8614193908960447`*^9, 3.915662652941154*^9, 3.9159082294494963`*^9, {
    3.916157946891552*^9, 3.916157947302764*^9}, 3.917139332875516*^9},
  AspectRatioFixed->True,
- CellLabel->"In[83]:=",ExpressionUUID->"6ac01f8b-71b3-4538-ac35-fd86020ea575"],
+ CellLabel->"In[20]:=",ExpressionUUID->"6ac01f8b-71b3-4538-ac35-fd86020ea575"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -20949,23 +20954,23 @@ T7bPHSgqJgo3UgpeaumgHLYPHC3JJJT11u9YYuigiAHB27TXS2/+B8gaphU=
    {RGBColor[1, 0, 0], PointSize[0.01]}, {}, {}, {}, {}},
   Axes->True]], "Output",
  CellChangeTimes->{3.916157896655272*^9, 3.9161579488186073`*^9, 
-  3.916247356831385*^9, 3.9171393543945727`*^9, 3.918138624625882*^9, 
-  3.918229074032933*^9, 3.948513074186781*^9, 3.948514543005192*^9},
- CellLabel->"Out[83]=",ExpressionUUID->"c698ac72-9572-7b48-a057-6faebb06500b"]
+  3.916247356831385*^9, 3.917139354394573*^9, 3.918138624625882*^9, 
+  3.918229074032933*^9, 3.948513074186781*^9, 3.948514543005192*^9, 
+  3.956525846050028*^9, 3.956526051136652*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"5a9e7360-f3f5-6c4c-b819-9ffc8755d50c"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
 Cell["\<\
-(* The inverse of a line with respect to a point not on the line is a circle. \
-*)\
-\>", "Subsubsection",
+The inverse of a line with respect to a point not on the line is a circle.\
+\>", "Section",
  CellChangeTimes->{
-  3.861419391764196*^9, {3.915662661393098*^9, 3.915662668658298*^9}},
- AspectRatioFixed->True,
- CellLabel->
-  "In[351]:=",ExpressionUUID->"e7b6a947-655b-42f2-ae85-84d86f1174b9"],
+  3.861419391764196*^9, {3.915662661393098*^9, 3.915662668658298*^9}, {
+   3.9565259849603863`*^9, 3.9565259852538967`*^9}, 3.9565260428393593`*^9},
+ AspectRatioFixed->
+  True,ExpressionUUID->"e7b6a947-655b-42f2-ae85-84d86f1174b9"],
 
 Cell[CellGroupData[{
 
@@ -20997,7 +21002,7 @@ Cell[BoxData[
   3.861419391764196*^9, {3.915662661393098*^9, 3.915662662335161*^9}, 
    3.9158418459930153`*^9, 3.915908230714386*^9, 3.917139332892531*^9},
  AspectRatioFixed->True,
- CellLabel->"In[84]:=",ExpressionUUID->"db4e8312-d635-4d05-b416-b87e17acad26"],
+ CellLabel->"In[21]:=",ExpressionUUID->"db4e8312-d635-4d05-b416-b87e17acad26"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -21406,19 +21411,21 @@ UisI5wefC58yOVQIzvf2MjYRkheG89WWSkp19iP4EFoEzgcAli0A3w==
   Axes->True,
   PlotRange->{{-3, 3}, {-2.05, 4.05}}]], "Output",
  CellChangeTimes->{3.916157896690304*^9, 3.916247356867419*^9, 
-  3.9171393544346075`*^9, 3.9181386247081633`*^9, 3.918229074074972*^9, 
-  3.948513074276863*^9, 3.948514543095276*^9},
- CellLabel->"Out[84]=",ExpressionUUID->"a60d72da-2f20-6048-8480-51ef3138d33a"]
+  3.9171393544346075`*^9, 3.918138624708163*^9, 3.918229074074972*^9, 
+  3.948513074276863*^9, 3.948514543095276*^9, 3.95652584614011*^9, 
+  3.95652605122373*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"a14adfca-d0f5-e244-832c-5bea04f80559"]
 }, Open  ]]
 }, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["(* The inverse of a circle is a line. *)", "Subsubsection",
- CellChangeTimes->{3.861419392771709*^9, 3.9156626923141136`*^9},
- AspectRatioFixed->True,
- CellLabel->
-  "In[353]:=",ExpressionUUID->"7a145889-2ba6-49a3-83a9-6c006712dab3"],
+Cell["The inverse of a circle is a line.", "Section",
+ CellChangeTimes->{
+  3.861419392771709*^9, 3.915662692314113*^9, {3.9565259970991917`*^9, 
+   3.956525997390871*^9}, 3.9565260435283604`*^9},
+ AspectRatioFixed->
+  True,ExpressionUUID->"7a145889-2ba6-49a3-83a9-6c006712dab3"],
 
 Cell[CellGroupData[{
 
@@ -21455,7 +21462,7 @@ Cell[BoxData[
   3.861419392771709*^9, 3.915663553084579*^9, 3.915908231598156*^9, {
    3.916157743644328*^9, 3.916157748400968*^9}, 3.91713933290154*^9},
  AspectRatioFixed->True,
- CellLabel->"In[85]:=",ExpressionUUID->"89870979-e8c5-4fa6-9c32-b659ee0b8b00"],
+ CellLabel->"In[22]:=",ExpressionUUID->"89870979-e8c5-4fa6-9c32-b659ee0b8b00"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -25508,17 +25515,21 @@ nA9vLQ==
   PlotRange->{{-4, 4}, {-2.5, 1.2}}]], "Output",
  CellChangeTimes->{3.9161578967363462`*^9, 3.9162473569214673`*^9, 
   3.917139354487657*^9, 3.918138624761212*^9, 3.91822907412863*^9, 
-  3.9485130743619385`*^9, 3.9485145431803513`*^9},
- CellLabel->"Out[85]=",ExpressionUUID->"d67a64f4-12f4-8243-baaa-9732639f4097"]
+  3.948513074361939*^9, 3.948514543180352*^9, 3.9565258462422028`*^9, 
+  3.956526051328165*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"6a09da2d-fd40-1c4e-b79e-d30664765a74"]
+}, Open  ]]
 }, Open  ]],
 
-Cell[TextData[StyleBox["(* Inverse of a rose is an epispiral *)", \
-"Subsubsection"]], "Input",
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["Inverse of a rose is an epispiral", \
+"Subsubsection"]], "Section",
  CellChangeTimes->{
-  3.861419393783961*^9, 3.9156626971597805`*^9, {3.916157778995416*^9, 
-   3.916157781115957*^9}},
- AspectRatioFixed->True,
- CellLabel->"In[86]:=",ExpressionUUID->"4172c7b0-c529-4322-b8f8-c47d406ff866"],
+  3.861419393783961*^9, 3.9156626971597795`*^9, {3.916157778995416*^9, 
+   3.916157781115957*^9}, {3.9565260007966175`*^9, 3.956526011559166*^9}},
+ AspectRatioFixed->
+  True,ExpressionUUID->"4172c7b0-c529-4322-b8f8-c47d406ff866"],
 
 Cell[CellGroupData[{
 
@@ -25563,9 +25574,9 @@ Cell[BoxData[
         RowBox[{"-", "4"}], ",", "4"}], "}"}]}], "}"}]}]}], "]"}]], "Input",
  CellChangeTimes->{
   3.861419393783961*^9, 3.9156635671655965`*^9, 3.915908232704841*^9, {
-   3.9161578027599177`*^9, 3.916157804468305*^9}, 3.91713933291355*^9},
+   3.916157802759918*^9, 3.916157804468305*^9}, 3.91713933291355*^9},
  AspectRatioFixed->True,
- CellLabel->"In[87]:=",ExpressionUUID->"a02b45bf-80a7-49b2-b94a-eb9a22a50f7b"],
+ CellLabel->"In[23]:=",ExpressionUUID->"a02b45bf-80a7-49b2-b94a-eb9a22a50f7b"],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -33870,8 +33881,9 @@ Wfz///dbbrd+p0zKh7L/A7PYLlM=
   PlotRange->{{-4, 4}, {-4, 4}}]], "Output",
  CellChangeTimes->{3.916157896811414*^9, 3.916247357018555*^9, 
   3.917139354620171*^9, 3.9181386249258223`*^9, 3.918229074218712*^9, 
-  3.9485130745100727`*^9, 3.948514543332489*^9},
- CellLabel->"Out[87]=",ImageCache->GraphicsData["CompressedBitmap", "\<\
+  3.948513074510073*^9, 3.948514543332489*^9, 3.956525846531391*^9, 
+  3.9565260515303364`*^9},
+ CellLabel->"Out[23]=",ImageCache->GraphicsData["CompressedBitmap", "\<\
 eJztfQfcVMW5/rLtWxBQpCgWWHqRxYaIlaMiFvBTULEs4oqIdS2oWKKsgqIi
 YkeChFUTkRjrxoAFORq7OZbojW2NJ+0aNYmumvJPuff8533nfefMnDO7fiTe
 e5N72d9vzrff2Tkz8zxvmT7nkBPOO+Wk8gnnnXriCfkD5pxw9imnnnhufuJZ
@@ -34281,7 +34293,7 @@ QHCY0Ib1bbsY7EmISAnZOIYyJJJ4Tev3gIkNmQapJLTJGD5cJobPPhE0UJXB
 /RaxBeyHPmWkGrWsYxQ4KTj1OU0mGe0oo3mZSeqLMiA6rbryqaCYKsE11sc8
 rXFJ03SO/gz+sJMWyWYUuiQCdTm2yY1Ep/8PDhvYZA==\
 \>", "ImageResolution" -> \
-96.],ExpressionUUID->"bc040de6-444e-a146-b364-83a7203381d3"]
+96.],ExpressionUUID->"36e387f7-bb56-3848-8ebd-7cdc805abea9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -34309,76 +34321,78 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[561, 20, 410, 8, 35, "Input",ExpressionUUID->"a302f2ca-d417-cb4d-8960-4442d14b8598"],
+Cell[561, 20, 206, 4, 35, "Input",ExpressionUUID->"5cb9bf44-3dcf-e141-92b4-2e70c948f1e1"],
 Cell[CellGroupData[{
-Cell[996, 32, 132, 3, 85, "Chapter",ExpressionUUID->"5a8bf7f7-8852-4047-a0e9-7d5cbc08c466",
+Cell[792, 28, 132, 3, 85, "Chapter",ExpressionUUID->"5a8bf7f7-8852-4047-a0e9-7d5cbc08c466",
  Evaluatable->False],
 Cell[CellGroupData[{
-Cell[1153, 39, 256, 5, 56, "Subsubsection",ExpressionUUID->"56bf1e40-9513-4da1-840c-d8195aa5ae85"],
+Cell[949, 35, 320, 5, 131, "Section",ExpressionUUID->"56bf1e40-9513-4da1-840c-d8195aa5ae85"],
 Cell[CellGroupData[{
-Cell[1434, 48, 1237, 37, 119, "Input",ExpressionUUID->"5734fa59-491e-4a7e-9ee6-9f6aea3e0c0d"],
-Cell[2674, 87, 197732, 3615, 343, "Output",ExpressionUUID->"fb712334-cb4e-e84e-aab6-e726e8ef9385"]
+Cell[1294, 44, 1237, 37, 119, "Input",ExpressionUUID->"5734fa59-491e-4a7e-9ee6-9f6aea3e0c0d"],
+Cell[2534, 83, 197779, 3616, 343, "Output",ExpressionUUID->"b6f7cf97-5b7b-694c-8e79-89f185e8bb23"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[200455, 3708, 256, 5, 56, "Subsubsection",ExpressionUUID->"3d03f3ca-1702-44f0-ac61-913bcd8237c4"],
+Cell[200362, 3705, 298, 5, 131, "Section",ExpressionUUID->"3d03f3ca-1702-44f0-ac61-913bcd8237c4"],
 Cell[CellGroupData[{
-Cell[200736, 3717, 1371, 42, 143, "Input",ExpressionUUID->"ee5c46c4-5ce4-4b8f-aad8-24a8198dcb06"],
-Cell[202110, 3761, 100818, 1858, 434, "Output",ExpressionUUID->"c0e35f85-fed4-644f-8fec-58b0fe6acb46"]
+Cell[200685, 3714, 1371, 42, 143, "Input",ExpressionUUID->"ee5c46c4-5ce4-4b8f-aad8-24a8198dcb06"],
+Cell[202059, 3758, 100865, 1859, 434, "Output",ExpressionUUID->"b3d06ef7-2730-884d-9699-a6d272d9fd6e"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[302977, 5625, 258, 5, 56, "Subsubsection",ExpressionUUID->"e9d3bc5f-c51b-476e-9ce7-4c0a7a15d22f"],
+Cell[302973, 5623, 320, 5, 131, "Section",ExpressionUUID->"e9d3bc5f-c51b-476e-9ce7-4c0a7a15d22f"],
 Cell[CellGroupData[{
-Cell[303260, 5634, 1487, 45, 143, "Input",ExpressionUUID->"5a0deee3-c110-438a-877b-301c6f4b79cc"],
-Cell[304750, 5681, 133880, 2477, 561, "Output",ExpressionUUID->"05a47305-a716-f040-abc3-dc67a9993d2c"]
+Cell[303318, 5632, 1487, 45, 143, "Input",ExpressionUUID->"5a0deee3-c110-438a-877b-301c6f4b79cc"],
+Cell[304808, 5679, 133927, 2478, 561, "Output",ExpressionUUID->"21e8db47-91cd-3447-8548-5af60fbbb992"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[438679, 8164, 349, 8, 88, "Subsubsection",ExpressionUUID->"3d9b4839-c048-43bf-b8e5-c5cc878ccae5"],
+Cell[438784, 8163, 341, 8, 178, "Section",ExpressionUUID->"3d9b4839-c048-43bf-b8e5-c5cc878ccae5"],
 Cell[CellGroupData[{
-Cell[439053, 8176, 1180, 34, 142, "Input",ExpressionUUID->"4355e051-120c-48a4-af45-6c9cb2f126bf"],
-Cell[440236, 8212, 97051, 1777, 357, "Output",ExpressionUUID->"a11a07bb-5a52-584d-8029-bcecbc519244"]
+Cell[439150, 8175, 1178, 34, 142, "Input",ExpressionUUID->"4355e051-120c-48a4-af45-6c9cb2f126bf"],
+Cell[440331, 8211, 97100, 1778, 357, "Output",ExpressionUUID->"c3ba5a6a-d20e-7341-b1a9-0e68f19c8f73"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[537336, 9995, 321, 7, 120, "Subsubsection",ExpressionUUID->"dc332e7d-6774-4b2d-90fb-06d49b81dc8a"],
+Cell[537480, 9995, 383, 8, 178, "Section",ExpressionUUID->"dc332e7d-6774-4b2d-90fb-06d49b81dc8a"],
 Cell[CellGroupData[{
-Cell[537682, 10006, 1124, 33, 115, "Input",ExpressionUUID->"1427f4f1-99e7-495b-9262-a8ef890230e7"],
-Cell[538809, 10041, 128985, 2387, 474, "Output",ExpressionUUID->"88b1fb13-b2d9-7347-88bf-ecac200b216d"]
+Cell[537888, 10007, 1124, 33, 115, "Input",ExpressionUUID->"1427f4f1-99e7-495b-9262-a8ef890230e7"],
+Cell[539015, 10042, 129032, 2388, 474, "Output",ExpressionUUID->"a0823ddd-d796-7c46-b7ba-566c134d85e2"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[667843, 12434, 335, 8, 88, "Subsubsection",ExpressionUUID->"382e6e16-f3f7-4a3e-b269-2479dfcb8328"],
+Cell[668096, 12436, 418, 9, 178, "Section",ExpressionUUID->"382e6e16-f3f7-4a3e-b269-2479dfcb8328"],
 Cell[CellGroupData[{
-Cell[668203, 12446, 1143, 33, 115, "Input",ExpressionUUID->"0599603d-ebb0-49fa-99a6-a3859914cb94"],
-Cell[669349, 12481, 128853, 2386, 474, "Output",ExpressionUUID->"7ceda94d-6ee2-0f4e-a153-1bb3dccb2927"]
+Cell[668539, 12449, 1141, 33, 115, "Input",ExpressionUUID->"0599603d-ebb0-49fa-99a6-a3859914cb94"],
+Cell[669683, 12484, 128897, 2387, 474, "Output",ExpressionUUID->"160437f6-e54b-c146-a970-e67677fd5fa5"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[798251, 14873, 281, 6, 88, "Subsubsection",ExpressionUUID->"f8a65b32-bc82-41c6-9966-5684c2161256"],
+Cell[798629, 14877, 319, 7, 131, "Section",ExpressionUUID->"f8a65b32-bc82-41c6-9966-5684c2161256"],
 Cell[CellGroupData[{
-Cell[798557, 14883, 893, 24, 91, "Input",ExpressionUUID->"6ac01f8b-71b3-4538-ac35-fd86020ea575"],
-Cell[799453, 14909, 332009, 6044, 200, "Output",ExpressionUUID->"c698ac72-9572-7b48-a057-6faebb06500b"]
+Cell[798973, 14888, 893, 24, 91, "Input",ExpressionUUID->"6ac01f8b-71b3-4538-ac35-fd86020ea575"],
+Cell[799869, 14914, 332054, 6045, 200, "Output",ExpressionUUID->"5a9e7360-f3f5-6c4c-b819-9ffc8755d50c"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1131511, 20959, 314, 8, 88, "Subsubsection",ExpressionUUID->"e7b6a947-655b-42f2-ae85-84d86f1174b9"],
+Cell[1131972, 20965, 353, 7, 131, "Section",ExpressionUUID->"e7b6a947-655b-42f2-ae85-84d86f1174b9"],
 Cell[CellGroupData[{
-Cell[1131850, 20971, 973, 28, 83, "Input",ExpressionUUID->"db4e8312-d635-4d05-b416-b87e17acad26"],
-Cell[1132826, 21001, 20660, 409, 474, "Output",ExpressionUUID->"a60d72da-2f20-6048-8480-51ef3138d33a"]
+Cell[1132350, 20976, 973, 28, 83, "Input",ExpressionUUID->"db4e8312-d635-4d05-b416-b87e17acad26"],
+Cell[1133326, 21006, 20703, 410, 474, "Output",ExpressionUUID->"a14adfca-d0f5-e244-832c-5bea04f80559"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1153535, 21416, 239, 4, 56, "Subsubsection",ExpressionUUID->"7a145889-2ba6-49a3-83a9-6c006712dab3"],
+Cell[1154078, 21422, 279, 5, 83, "Section",ExpressionUUID->"7a145889-2ba6-49a3-83a9-6c006712dab3"],
 Cell[CellGroupData[{
-Cell[1153799, 21424, 1118, 33, 115, "Input",ExpressionUUID->"89870979-e8c5-4fa6-9c32-b659ee0b8b00"],
-Cell[1154920, 21459, 221589, 4052, 231, "Output",ExpressionUUID->"d67a64f4-12f4-8243-baaa-9732639f4097"]
+Cell[1154382, 21431, 1118, 33, 115, "Input",ExpressionUUID->"89870979-e8c5-4fa6-9c32-b659ee0b8b00"],
+Cell[1155503, 21466, 221634, 4053, 231, "Output",ExpressionUUID->"6a09da2d-fd40-1c4e-b79e-d30664765a74"]
+}, Open  ]]
 }, Open  ]],
-Cell[1376524, 25514, 318, 6, 47, "Input",ExpressionUUID->"4172c7b0-c529-4322-b8f8-c47d406ff866"],
 Cell[CellGroupData[{
-Cell[1376867, 25524, 1473, 43, 150, "Input",ExpressionUUID->"a02b45bf-80a7-49b2-b94a-eb9a22a50f7b"],
-Cell[1378343, 25569, 482706, 8714, 494, 457487, 8300, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"bc040de6-444e-a146-b364-83a7203381d3"]
+Cell[1377186, 25525, 341, 6, 69, "Section",ExpressionUUID->"4172c7b0-c529-4322-b8f8-c47d406ff866"],
+Cell[CellGroupData[{
+Cell[1377552, 25535, 1471, 43, 150, "Input",ExpressionUUID->"a02b45bf-80a7-49b2-b94a-eb9a22a50f7b"],
+Cell[1379026, 25580, 482753, 8715, 494, 457487, 8300, "CachedBoxData", "BoxData", "Output",ExpressionUUID->"36e387f7-bb56-3848-8ebd-7cdc805abea9"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

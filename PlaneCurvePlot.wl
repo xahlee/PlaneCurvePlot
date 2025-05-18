@@ -11,7 +11,9 @@
 
  :Summary:
 
-This package exports the function PlaneCurvePlot. PlaneCurvePlot is like ParametricPlot with extra options to plot tangent, secant, normal lines, parallel curves, caustics, evolutes, radial, concoid, and inversion of a curve. These features are useful for studing plane curves.
+This package exports the function PlaneCurvePlot.
+PlaneCurvePlot is like ParametricPlot with extra options to plot tangent, secant, normal lines, parallel curves, caustics, evolutes, radial, concoid, and inversion of a curve.
+These features are useful for studing plane curves.
 
  :Keywords: graphics, geometry, calculus, curve, plot, tangent, secant, normal, parallel, caustics, involute, evolute, radial, concoid, inversion, pedal
 
@@ -71,7 +73,8 @@ PlotRadial,
 SecantConnection,
 SecantLineStyle,
 TangentLineLength,
-TangentLineStyle
+TangentLineStyle,
+ParaPlot
 ];
 
 CausticLineLength::usage=
@@ -294,6 +297,8 @@ PlaneCurvePlot::usage = "PlaneCurvePlot[{x[t],y[t]},{t,tmin,tmax}] plot the para
 PlaneCurvePlot[{x[t],y[t]},{t,tmin,tmax,dt}] show dots on curve with parameter values in increment of dt.
 PlaneCurvePlot[{x[t],y[t]},{t,tmin,tmax}, {t1,t2,...,tn}] show dots with explicit parameter values t1, t2, etc.
 Options allow one to plot tangents, normals, caustics, parallel curves, conchoid, pedal curves, inversion, osculating circles, evolute, radial, involute.";
+
+ParaPlot::usage = "same as PlaneCurvePlot";
 
 Begin[ "Private`" ]
 
@@ -729,6 +734,8 @@ And[NumericQ[tmin], NumericQ[tmax], Or[NumericQ[dt], SameQ[dt, Automatic]]];
 PlaneCurvePlot[{fx_,fy_}, {t838_Symbol, tmin_, tmax_, dt_:Automatic}, tlist_List:{Automatic}, xOpts:OptionsPattern[]] :=
 PlaneCurvePlot[ {Function[t838, fx ], Function[t838, fy]}, {tmin, tmax, dt}, tlist, xOpts] /;
 And[NumericQ[tmin], NumericQ[tmax], Or[NumericQ[dt], SameQ[dt, Automatic]]];
+
+ParaPlot = PlaneCurvePlot;
 
 End[];
 
